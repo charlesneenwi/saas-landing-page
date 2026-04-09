@@ -18,7 +18,7 @@ function Navbar() {
                 <li className="hover:text-blue-400 cursor-pointer transition duration-300">About</li>
                 </ul>
 
-                <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-5 rounded-full shadow-lg shadow-blue-500/30 transition duration-300 hidden md:inline-block"
+                <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-5 rounded-lg shadow-lg shadow-blue-500/30 transition duration-300 hidden md:inline-block"
 >
                 Get Started
                 </button>
@@ -32,7 +32,7 @@ function Navbar() {
             {isMenuOpen && (
                 <div className="absolute top-full left-0 w-full bg-gray-900 p-6 md:hidden">
 
-                    <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-5 rounded-full shadow-lg shadow-blue-500/30 transition duration-300">
+                    <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-5 rounded-lg shadow-lg shadow-blue-500/30 transition duration-300">
                 Get Started
                 </button>
                 

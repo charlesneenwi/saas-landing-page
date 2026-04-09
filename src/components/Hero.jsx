@@ -14,10 +14,10 @@ function Hero() {
                     Create explainer videos, whiteboard animations, and presentation videos — just from a prompt.
                 </p>
                 <div className="mt-8 space-x-6">
-                    <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full">
+                    <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-lg">
                         Get Started
                     </button>
-                    <button className="bg-transparent hover:bg-gray-600 text-white font-bold py-2 px-6 border rounded-full border-white">
+                    <button className="bg-transparent hover:bg-gray-600 text-white font-bold py-2 px-6 border rounded-lg border-white">
                         Learn More
                     </button>
                 </div>
