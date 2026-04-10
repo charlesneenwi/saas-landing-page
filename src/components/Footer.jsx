@@ -2,7 +2,7 @@ import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="w-full bg-gray-900 text-gray-400 py-6 mt-12 border-t border-white/10">
+    <footer className="w-full bg-gray-900 text-gray-400 py-6 border-t border-white/10">
       <div className="max-w-7xl mx-auto px-6 text-center">
         <div>
           <h3 className="text-white font-bold text-xl">
@@ -27,7 +27,7 @@ function Footer() {
           </a>
           <a
             href="#"
-            className="hover:text-blue-400 transition duration-300 mx-2"
+            className="hover:text-blue-400 transition duration-300 mx-2 whitespace-nowrap"
           >
             Contact Us
           </a>
@@ -57,13 +57,13 @@ function Footer() {
               className="text-gray-400 hover:text-white transition duration-300"
             />
           </a>
-          <a href="https://twitter.com" target="_blank">
+          <a href="https://x.com/Charles_nk" target="_blank">
             <FaTwitter
               size={20}
               className="text-gray-400 hover:text-white transition duration-300"
             />
           </a>
-          <a href="https://linkedin.com" target="_blank">
+          <a href="https://www.linkedin.com/in/charles-neenwi-b908b6361" target="_blank">
             <FaLinkedin
               size={20}
               className="text-gray-400 hover:text-white transition duration-300"

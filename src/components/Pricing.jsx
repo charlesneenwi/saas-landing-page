@@ -22,7 +22,7 @@ function Pricing() {
           >
             <h3 className="text-xl mb-1">Free</h3>
 <p className="text-4xl text-white mb-4">$0<span className="text-lg text-gray-400">/mo</span></p>
-<p className="text-gray-400">Perfect for individuals and small teams getting started.</p>
+<p className="text-gray-400 mb-8">Perfect for individuals and small teams getting started.</p>
             <ul>
               <li className="flex items-center gap-2">
                 <Check size={16} className="text-blue-400" />
@@ -45,7 +45,7 @@ function Pricing() {
                 <span>Community support</span>
               </li>
             </ul>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-5 rounded-lg shadow-lg shadow-blue-500/30 transition duration-300 mt-8">
+            <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-15 rounded-lg shadow-lg shadow-blue-500/30 transition duration-300 mt-8">
               Start for Free
             </button>
           </div>
@@ -59,7 +59,7 @@ function Pricing() {
 </span>
             <h3 className="text-xl mb-1">Pro</h3>
 <p className="text-4xl text-white mb-4">$29<span className="text-lg text-gray-400">/mo</span></p>
-<p className="text-gray-400">For professionals and businesses that need more power and flexibility.</p>
+<p className="text-gray-400 mb-8">For professionals and businesses that need more power and flexibility.</p>
             <ul>
               <li className="flex items-center gap-2">
                 <Check size={16} className="text-blue-400" />
@@ -82,7 +82,7 @@ function Pricing() {
                 <span>Priority support</span>
               </li>
             </ul>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-5 rounded-lg shadow-lg shadow-blue-500/30 transition duration-300 mt-8"> Upgrade to Pro</button>
+            <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-15 rounded-lg shadow-lg shadow-blue-500/30 transition duration-300 mt-8"> Upgrade to Pro</button>
           </div>
 
           <div
@@ -91,7 +91,7 @@ function Pricing() {
           >
             <h3 className="text-xl mb-1">Enterprise</h3>
 <p className="text-4xl text-white mb-4">$99<span className="text-lg text-gray-400">/mo</span></p>
-<p className="text-gray-400">For large teams and organizations that need advanced features and support.</p>
+<p className="text-gray-400 mb-8">For large teams and organizations that need advanced features and support.</p>
             <ul>
               <li className="flex items-center gap-2">
                 <Check size={16} className="text-blue-400" />
@@ -114,7 +114,7 @@ function Pricing() {
                 <span>Dedicated account manager</span>
               </li>
             </ul>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-5 rounded-lg shadow-lg shadow-blue-500/30 transition duration-300 mt-10">Contact Sales</button>
+            <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-15 rounded-lg shadow-lg shadow-blue-500/30 transition duration-300 mt-10">Contact Sales</button>
           </div>
         </div>
       </div>
