@@ -7,17 +7,17 @@ function Hero() {
                     ✨ AI Video Generation is here
                 </div>
                 
-                <h1 className="text-5xl md:text-7xl font-bold mb-6">
+                <h1 className="text-4xl md:text-6xl mb-6">
                     Turn any idea into a stunning video in minutes
                 </h1>
                 <p className="text-base md:text-lg mb-2 mt-4 text-gray-400">
                     Create explainer videos, whiteboard animations, and presentation videos — just from a prompt.
                 </p>
                 <div className="mt-8 space-x-6">
-                    <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-lg">
+                    <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-lg">
                         Get Started
                     </button>
-                    <button className="bg-transparent hover:bg-gray-600 text-white font-bold py-2 px-6 border rounded-lg border-white">
+                    <button className="bg-transparent hover:bg-gray-600 text-white py-2 px-6 border rounded-lg border-white">
                         Learn More
                     </button>
                 </div>

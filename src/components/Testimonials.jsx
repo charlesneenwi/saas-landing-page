@@ -4,7 +4,7 @@ function Testimonials() {
             <div className="max-w-7xl mx-auto py-24 px-6 text-center">
                 <div>
                     <p className="text-blue-400 text-sm font-semibold uppercase tracking-widest mb-3">Testimonials</p>
-                    <h2 className="text-3xl font-bold text-white mb-4">What our users are saying</h2>
+                    <h2 className="text-3xl text-white mb-4">What our users are saying</h2>
                     <p className="text-lg text-center text-gray-500 mb-12">Hear from some of our satisfied customers who have transformed their video creation process with Scenixa.</p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -15,7 +15,7 @@ function Testimonials() {
                         <div className="flex items-center gap-3 mt-4">
   <img src="https://i.pravatar.cc/48?img=1" className="rounded-full w-10 h-10" />
   <div className="text-left">
-    <p className="text-white font-bold">Charles Neenwi</p>
+    <p className="text-white">Charles Neenwi</p>
     <p className="text-gray-500 text-sm">Marketing Director</p>
   </div>
 </div>
@@ -26,7 +26,7 @@ function Testimonials() {
                         <div className="flex items-center gap-3 mt-4">
   <img src="https://i.pravatar.cc/48?img=2" className="rounded-full w-10 h-10" />
   <div className="text-left">
-    <p className="text-white font-bold">Wilbur Brookstone</p>
+    <p className="text-white">Wilbur Brookstone</p>
     <p className="text-gray-500 text-sm">Content Creator</p>
   </div>
 </div>
@@ -37,7 +37,7 @@ function Testimonials() {
                         <div className="flex items-center gap-3 mt-4">
   <img src="https://i.pravatar.cc/48?img=3" className="rounded-full w-10 h-10" />
   <div className="text-left">
-    <p className="text-white font-bold">Emily Johnson</p>
+    <p className="text-white">Emily Johnson</p>
     <p className="text-gray-500 text-sm">Social Media Manager</p>
   </div>
 </div>
