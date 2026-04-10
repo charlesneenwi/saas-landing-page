@@ -2,7 +2,7 @@ import { Check } from "lucide-react";
 
 function Pricing() {
   return (
-    <section className="bg-gray-950 py-10 px-6">
+    <section id="pricing" className="bg-gray-950 py-10 px-6">
       <div className="max-w-7xl mx-auto py-24 px-6 text-center">
         <div>
           <p className="text-blue-400 text-sm font-semibold uppercase tracking-widest mb-3">

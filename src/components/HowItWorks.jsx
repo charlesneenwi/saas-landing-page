@@ -1,6 +1,6 @@
 function HowItWorks() {
   return (
-    <section className="bg-gray-950 py-10 px-6">
+    <section id="how-it-works" className="bg-gray-950 py-10 px-6">
         <div className="max-w-7xl mx-auto py-24 px-6 text-center">
             <p className="text-blue-400 text-sm font-semibold uppercase tracking-widest mb-3">How It Works</p>
 <h2 className="text-2xl pb-4 text-white mb-4">Three steps to your perfect video</h2>

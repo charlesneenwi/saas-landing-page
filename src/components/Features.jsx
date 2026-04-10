@@ -2,7 +2,7 @@ import { Video, Pen, Download, Palette, Globe, BarChart } from 'lucide-react'
 
 function Features() {
     return (
-        <section className="bg-gray-950 text-white py-24 px-6">
+        <section id='features' className="bg-gray-950 text-white py-24 px-6">
             <div className="max-w-7xl mx-auto">
 
                 <div className="text-center mb-16 ">
