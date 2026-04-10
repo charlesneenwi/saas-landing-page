@@ -1,19 +1,31 @@
+import { motion } from "framer-motion";
 function Hero() {
     return (
         <section className="min-h-screen flex flex-col items-center justify-center text-center bg-gray-950 text-white pt-24">
             
             <div className="max-w-3xl mx-auto text-center px-6">
-                <div className="inline-block bg-blue-500/10 border border-blue-500/30 text-blue-400 text-sm px-4 py-1 rounded-full mb-6 mt-6">
+                <div 
+                
+                className="inline-block bg-blue-500/10 border border-blue-500/30 text-blue-400 text-sm px-4 py-1 rounded-full mb-6 mt-6">
                     ✨ AI Video Generation is here
                 </div>
-                
+                <motion.div initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, delay: 0.6 }}
+  viewport={{ once: true }}>
                 <h1 className="text-4xl md:text-6xl mb-6">
                     Turn any idea into a stunning video in minutes
                 </h1>
                 <p className="text-base md:text-lg mb-2 mt-4 text-gray-400">
                     Create explainer videos, whiteboard animations, and presentation videos — just from a prompt.
                 </p>
-                <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+                </motion.div>
+                <motion.div 
+                initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, delay: 0.6 }}
+  viewport={{ once: true }}
+                className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
                     <button className="bg-blue-500 hover:bg-blue-600 text-white ml-4 py-2 px-8 rounded-lg">
                         Get Started
                     </button>
@@ -21,26 +33,45 @@ function Hero() {
   
                         Learn More
                     </button>
-                </div>
-                <div>
+                </motion.div>
+                <motion.div initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, delay: 0.6 }}
+  viewport={{ once: true }}
+  >
                     <p className="text-sm text-gray-400 mt-4">      
                         ✨ Trusted by 12,000+ creators • No credit card required • Cancel anytime
                     </p>
                     {/* Hero Visual */}
-<div className="mt-16 rounded-xl border border-white/10 overflow-hidden shadow-2xl shadow-blue-500/10">
+<motion.div 
+initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, delay: 0.6 }}
+  viewport={{ once: true }}
+className="mt-16 rounded-xl border border-white/10 overflow-hidden shadow-2xl shadow-blue-500/10">
   
   {/* Browser toolbar */}
-  <div className="bg-gray-800 px-4 py-3 flex items-center gap-2">
+  <motion.div 
+  initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, delay: 0.6 }}
+  viewport={{ once: true }}
+  className="bg-gray-800 px-4 py-3 flex items-center gap-2">
     <div className="w-3 h-3 rounded-full bg-red-500"></div>
     <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
     <div className="w-3 h-3 rounded-full bg-green-500"></div>
     <div className="flex-1 bg-gray-700 rounded-full mx-4 py-1 px-4 text-xs text-gray-400">
       app.scenixa.com
     </div>
-  </div>
+  </motion.div>
 
-  {/* Fake dashboard */}
-  <div className="bg-gray-900 p-6 grid grid-cols-3 gap-4">
+  {/* dashboard */}
+  <motion.div 
+  initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, delay: 0.6 }}
+  viewport={{ once: true }}
+  className="bg-gray-900 p-6 grid grid-cols-3 gap-4">
     <div className="col-span-1 bg-gray-800 rounded-lg p-4 space-y-3">
       <div className="h-3 bg-gray-700 rounded-full w-3/4"></div>
       <div className="h-3 bg-gray-700 rounded-full w-1/2"></div>
@@ -59,10 +90,10 @@ function Hero() {
         </div>
       </div>
     </div>
-  </div>
+  </motion.div>
 
-</div>
-                </div>
+</motion.div>
+                </motion.div>
             </div>
         </section>
     )
