@@ -23,8 +23,12 @@ function HowItWorks() {
             steps.
           </p>
         </motion.div>
-        <div className="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="hidden md:block absolute top-8 left-1/5 right-1/5 h-px bg-gradient-to-r from-blue-500/50 to-cyan-400/50"></div>
+        <motion.div className="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <motion.div initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.6 }}
+          viewport={{ once: true }}
+          className="hidden md:block absolute top-8 left-1/5 right-1/5 h-px bg-gradient-to-r from-blue-500/50 to-cyan-400/50"></motion.div>
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -71,7 +75,7 @@ function HowItWorks() {
               Once generated, download your video and share it with anyone.
             </p>
           </motion.div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
