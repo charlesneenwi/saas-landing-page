@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
 function Hero() {
     return (
-        <section className="min-h-screen flex flex-col items-center justify-center text-center bg-gray-950 text-white pt-24">
-            
-            <div className="max-w-3xl mx-auto text-center px-6">
+        <section className="relative overflow-hidden min-h-screen flex flex-col items-center justify-center text-center bg-gray-950 text-white pt-24">
+            {/* Glow effect */}
+<div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
+            <div className="relative z-10 max-w-3xl mx-auto text-center px-6">
                 <div 
                 
                 className="inline-block bg-blue-500/10 border border-blue-500/30 text-blue-400 text-sm px-4 py-1 rounded-full mb-6 mt-6">
@@ -14,7 +15,9 @@ function Hero() {
   transition={{ duration: 0.6, delay: 0.6 }}
   viewport={{ once: true }}>
                 <h1 className="text-4xl md:text-6xl mb-6">
-                    Turn any idea into a stunning video in minutes
+                    Turn any idea into a{" "} 
+                    <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">stunning video
+                      </span> in minutes{" "}
                 </h1>
                 <p className="text-base md:text-lg mb-2 mt-4 text-gray-400">
                     Create explainer videos, whiteboard animations, and presentation videos — just from a prompt.
