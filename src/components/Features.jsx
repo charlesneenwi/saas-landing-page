@@ -15,9 +15,12 @@ function Features() {
           <p className="text-blue-400 text-sm font-semibold uppercase tracking-widest mb-3">
             Features
           </p>
-          <h2 className="text-3xl text-center mb-8">
-            Everything you need in one place
-          </h2>
+          <h2 className="text-6xl text-center mb-8">
+  Everything you need in{" "}
+  <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+    one place
+  </span>
+</h2>
           <p className="text-lg text-center text-gray-300">
             Scenixa gives you all the tools to go from idea to finished video in
             minutes.

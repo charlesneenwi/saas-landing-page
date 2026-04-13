@@ -14,10 +14,10 @@ function Hero() {
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.6, delay: 0.6 }}
   viewport={{ once: true }}>
-                <h1 className="text-4xl md:text-6xl mb-6">
+                <h1 className="text-3xl md:text-7xl mb-6">
                     Turn any idea into a{" "} 
                     <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">stunning video
-                      </span> in minutes{" "}
+                      </span> in minutes
                 </h1>
                 <p className="text-base md:text-lg mb-2 mt-4 text-gray-400">
                     Create explainer videos, whiteboard animations, and presentation videos — just from a prompt.
@@ -29,10 +29,10 @@ function Hero() {
   transition={{ duration: 0.6, delay: 0.6 }}
   viewport={{ once: true }}
                 className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-                    <button className="bg-blue-500 hover:bg-blue-600 text-white ml-4 py-2 px-8 rounded-lg">
+                    <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-8 rounded-lg">
                         Get Started
                     </button>
-                    <button className="ml-4 px-8 py-2 border border-white/40 hover:bg-white/10 text-white rounded-lg transition duration-300">
+                    <button className="px-8 py-2 border border-white/40 hover:bg-white/10 text-white rounded-lg transition duration-300">
   
                         Learn More
                     </button>
@@ -108,7 +108,11 @@ className="mt-16 rounded-xl border border-white/10 overflow-hidden shadow-2xl sh
   ✦ Trusted by teams at world-class companies ✦
 </p>
   
-  <div className="flex animate-marquee gap-16 whitespace-nowrap">
+  
+</div>
+            </div>
+
+            <div className="flex animate-marquee gap-16 whitespace-nowrap">
     {[
   { name: 'Google', color: 'text-blue-400' },
   { name: 'Microsoft', color: 'text-green-400' },
@@ -132,8 +136,6 @@ className="mt-16 rounded-xl border border-white/10 overflow-hidden shadow-2xl sh
   </span>
 ))}
   </div>
-</div>
-            </div>
         </section>
     )
 }
