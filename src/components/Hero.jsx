@@ -97,6 +97,42 @@ className="mt-16 rounded-xl border border-white/10 overflow-hidden shadow-2xl sh
 
 </motion.div>
                 </motion.div>
+                {/* Trust Bar */}
+<div className="relative mt-12 w-full overflow-hidden">
+  {/* Left fade */}
+  <div className="absolute left-0 top-0 h-full w-24 bg-gradient-to-r from-gray-950 to-transparent z-10 pointer-events-none"></div>
+  {/* Right fade */}
+  <div className="absolute right-0 top-0 h-full w-24 bg-gradient-to-l from-gray-950 to-transparent z-10 pointer-events-none"></div>
+
+  <p className="text-gray-500 text-xs font-semibold uppercase tracking-widest text-center mb-6">
+  ✦ Trusted by teams at world-class companies ✦
+</p>
+  
+  <div className="flex animate-marquee gap-16 whitespace-nowrap">
+    {[
+  { name: 'Google', color: 'text-blue-400' },
+  { name: 'Microsoft', color: 'text-green-400' },
+  { name: 'Notion', color: 'text-white' },
+  { name: 'Stripe', color: 'text-purple-400' },
+  { name: 'Figma', color: 'text-pink-400' },
+  { name: 'Netflix', color: 'text-red-400' },
+  { name: 'Shopify', color: 'text-emerald-400' },
+  { name: 'Airbnb', color: 'text-rose-400' },
+  { name: 'Google', color: 'text-blue-400' },
+  { name: 'Microsoft', color: 'text-green-400' },
+  { name: 'Notion', color: 'text-white' },
+  { name: 'Stripe', color: 'text-purple-400' },
+  { name: 'Figma', color: 'text-pink-400' },
+  { name: 'Netflix', color: 'text-red-400' },
+  { name: 'Shopify', color: 'text-emerald-400' },
+  { name: 'Airbnb', color: 'text-rose-400' },
+].map((brand, index) => (
+  <span key={index} className={`${brand.color} font-bold text-lg tracking-widest uppercase px-6 py-2 border border-gray-800 rounded-lg bg-gray-900/50 hover:border-gray-600 transition duration-300`}>
+    {brand.name}
+  </span>
+))}
+  </div>
+</div>
             </div>
         </section>
     )
