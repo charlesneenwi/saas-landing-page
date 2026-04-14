@@ -1,53 +1,45 @@
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion'
+
 function CTA() {
   return (
-    <section className="bg-blue-600/10 border-t border-b border-blue-500/20 py-24 text-center px-6">
-      <div className="max-w-3xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
-          viewport={{ once: true }}
-          className="flex items-center justify-center mb-4"
-        >
-          <svg
-            className="w-8 h-8 text-blue-500 mr-2"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm1-13h-2v6h6v-2h-4z" />
-          </svg>
-        </motion.div>
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
-          viewport={{ once: true }}
-        >
-          <h2 className="text-4xl md:text-5xl text-white mb-4">
-            Ready to create your first video?
-          </h2>
-          <p className="text-gray-500">
-            Join thousands of satisfied users and create stunning videos in
-            minutes.
-          </p>
-        </motion.div>
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
-          viewport={{ once: true }}
-        >
-          <button className="mt-6 px-8 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg shadow-lg shadow-blue-500/30 transition duration-300">
+    <section className="relative overflow-hidden bg-gray-950 py-24 px-6 text-center">
+      {/* Glow effects */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
+      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+        className="relative z-10 max-w-3xl mx-auto"
+      >
+        <p className="text-blue-400 text-xs font-semibold uppercase tracking-widest mb-4">
+          ✦ Get Started Today ✦
+        </p>
+        <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          Ready to create your{" "}
+          <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+            first video?
+          </span>
+        </h2>
+        <p className="text-gray-400 text-lg mb-8">
+          Join thousands of creators already using Scenixa to produce stunning videos in minutes.
+        </p>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <button className="w-full sm:w-auto bg-blue-500 hover:bg-blue-600 text-white py-3 px-8 rounded-lg shadow-lg shadow-blue-500/30 transition duration-300">
             Get Started Free
           </button>
-          <button className="mt-6 ml-4 px-8 py-3 border border-white/20 hover:bg-white/10 text-white font-bold rounded-lg transition duration-300">
+          <button className="w-full sm:w-auto border border-white/20 hover:bg-white/10 text-white py-3 px-8 rounded-lg transition duration-300">
             Watch Demo
           </button>
-        </motion.div>
-      </div>
+        </div>
+        <p className="text-gray-500 text-sm mt-6">
+          ✨ No credit card required • Cancel anytime • Free plan available
+        </p>
+      </motion.div>
     </section>
-  );
+  )
 }
 
-export default CTA;
+export default CTA
